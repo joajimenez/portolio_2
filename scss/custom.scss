@@ -1,0 +1,19 @@
+$primary: #05386b;
+$secondary: #379683;
+$success: #5cdb95;
+$info:#8ee4af;
+$warning: #edf5e1;
+$danger: #ee3e34;
+$light: #b7e1e2;
+
+body, p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+   }
+   
+   h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+   }
+
+@import "../node_modules/bootstrap/scss/bootstrap";
