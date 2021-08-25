@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/img/ufo.png" type="image/x-icon">
+    <link rel="icon" href="./assets/img/ufo.png" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:900|Work+Sans:300"
       rel="stylesheet"
@@ -12,14 +12,19 @@
     <link rel="stylesheet" href="./scss/custom.css" />
     <title>Joan Jimenez - Web Developer</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7QE2E8PGEF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7QE2E8PGEF"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-7QE2E8PGEF');
-</script>
+      gtag("config", "G-7QE2E8PGEF");
+    </script>
   </head>
   <body class="bg-light vh-100">
     <header>
@@ -46,10 +51,15 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="https://github.com/joajimenez"
-                  >Github</a>
+                  >Github</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.linkedin.com/in/joanjimenezd/">LinkedIn</a>
+                <a
+                  class="nav-link"
+                  href="https://www.linkedin.com/in/joanjimenezd/"
+                  >LinkedIn</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
@@ -65,8 +75,8 @@
           <h1 class="display-3">Affordable Web Development.</h1>
           <h1 class="display-3 text-danger">Done right.</h1>
           <p class="h4 pt-2">
-            Hello, My name's <strong>Joan Jimenez </strong> and I help business like yours get online in a affordable and timely
-            manner.
+            Hello, My name's <strong>Joan Jimenez </strong> and I help business
+            like yours get online in a affordable and timely manner.
           </p>
           <p class="display-6 pt-1">Wanna chat?</p>
           <a class="btn btn-primary" href="contact.html" role="button"
@@ -81,9 +91,50 @@
         />
       </div>
     </section>
-    <section>
-      <div class="container">
-        
+    <br>
+    <hr class="bg-danger border-2 border-top border-danger w-50">
+    <section class="pt-5">
+      <div class="container-fluid pt-3">
+        <h2 class="text-center pb-5 text-primary">Projects</h2>
+        <div class="container-fluid p-0">
+          <div class="row g-0">
+            <div
+              lc-helper="background"
+              class="col-md-6 order-md-2 ps-4 d-flex"
+              style="
+                background-size: cover;
+                background-position: center;
+                background-image: url('./assets/img/projects_screenshots/screenshot.webp');
+              "
+            >
+              <div class="lc-block align-self-center text-light ms-4">
+                <h2 class="fw-bold display-1" editable="inline">
+                  Testimonials&nbsp;<br />Landing&nbsp;<br />Page.
+                </h2>
+              </div>
+            </div>
+            <div class="col-md-6 order-md-1" style="padding: 5vh 5vw">
+              <div class="lc-block mb-3">
+                <div editable="rich">
+                  <p>
+                    <strong>This is a solution to the Testimonials grid section challenge on Frontend Mentor.&nbsp;</strong
+                    >
+                  </p>
+                </div>
+              </div>
+              <!-- /lc-block -->
+              <div class="lc-block pb-2">
+                <div editable="rich">
+                  <p>
+                    <em>This project was one of the first ones that I did while learning Bootstrap. I had to focus on the grid system and making the site responsive.&nbsp;</em>
+                  </p>
+                  <p>
+                    <em>Live site can be found <a href="https://joajimenez.github.io/testimonials_grid/">here</a>. And the <a href="https://github.com/joajimenez/testimonials_grid">code here.</a> &nbsp;</em>
+                  </p>
+                </div>
+              </div>
+          </div>
+        </div>
       </div>
     </section>
     <script
